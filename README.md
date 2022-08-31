@@ -6,8 +6,9 @@ Shigeru Watanabe. 1961. 5-Symbol 8-State and 5-Symbol 6-State Universal Turing M
 
 ### Tiny Tapeout Module
 
-currently the tiny tapeout user module is the (state, symbol) -> (state, symbol, direction)
-transition function, without internal memory elements to hold the current
-state.
+currently the tiny tapeout user module has two modes: either pure combinational
+to compute the (state, symbol) -> (state, symbol, direction) transition
+function, or sequential where internal memory elements hold the current state
+which advances when a tape interface gives the core a new symbol to process.
 
 tiny tapeout template files are from https://github.com/mattvenn/wokwi-verilog-gds-test
