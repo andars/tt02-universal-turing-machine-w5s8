@@ -14,6 +14,7 @@ project:
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
   author:       "Andrew Foote"      # Your name
+  discord:      ""      # Your discord handle
   title:        "w5s8: universal turing machine core"      # Project title
   description:  "State transition logic for a 5-state, 8-symbol universal turing machine"      # Short description of what your project does
   how_it_works: "Uses combinational logic to implements a (state, symbol) -> (state, symbol, direction) transition function"      # Longer description of how the project works
