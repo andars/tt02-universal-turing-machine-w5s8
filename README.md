@@ -11,4 +11,4 @@ to compute the (state, symbol) -> (state, symbol, direction) transition
 function, or sequential where internal memory elements hold the current state
 which advances when a tape interface gives the core a new symbol to process.
 
-tiny tapeout template files are from https://github.com/mattvenn/wokwi-verilog-gds-test
+tiny tapeout files are from https://github.com/TinyTapeout/tt02-verilog-demo.
